@@ -1,0 +1,30 @@
+﻿Build started 03.02.2021 20:53:55.
+     1>Project "D:\CODE\x360\Patcher_Saboteur\Patcher\Patcher.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release_LTCG\Patcher.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release_LTCG\Patcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\XBOX\XDK\bin\win32\CL.exe /c /Zi /nologo /W4 /WX- /Ox /Ob2 /Os /GL /D NDEBUG /D _XBOX /D XBOX /D LTCG /GF- /Gm- /MT /GS /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP /wd4127 /wd4054 /wd4055 main.cpp /MP /FI"E:\XBOX\XDK\\include\xbox\xbox_intellisense_platform.h"
+         main.cpp
+       Link:
+         E:\XBOX\XDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CODE\x360\Patcher_Saboteur\Patcher\Release_LTCG\Patcher.dll" /INCREMENTAL:NO /NOLOGO xapilib.lib xboxkrnl.lib libcmt.lib /DEF:"Patcher.def" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\CODE\x360\Patcher_Saboteur\Patcher\Release_LTCG\Patcher.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /IMPLIB:"D:\CODE\x360\Patcher_Saboteur\Patcher\Release_LTCG\Patcher.lib" Release_LTCG\main.obj /ignore:4089 /dll /entry:"_DllMainCRTStartup" /ALIGN:128,4096 /XEX:NO
+            Creating library D:\CODE\x360\Patcher_Saboteur\Patcher\Release_LTCG\Patcher.lib and object D:\CODE\x360\Patcher_Saboteur\Patcher\Release_LTCG\Patcher.exp
+         Generating code
+         Finished generating code
+       ImageXex:
+         E:\XBOX\XDK\bin\win32\imagexex.exe /out:"D:\CODE\x360\Patcher_Saboteur\Patcher\Release_LTCG\Patcher.tlog" "D:\CODE\x360\Patcher_Saboteur\Patcher\Release_LTCG\Patcher.dll" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.0
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       PostBuildEvent:
+         imagexex.exe /config:"xex.xml" /nologo /sysdll /exportcontainer:bam.def /gameregion:all /in:"Release_LTCG\Patcher.dll" /out:"Release_LTCG\Patcher.xex"
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "Release_LTCG\Patcher.unsuccessfulbuild".
+         Touching "Release_LTCG\Patcher.lastbuildstate".
+     1>Done Building Project "D:\CODE\x360\Patcher_Saboteur\Patcher\Patcher.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.17

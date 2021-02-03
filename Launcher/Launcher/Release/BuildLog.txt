@@ -1,0 +1,30 @@
+﻿Build started 01.02.2021 23:26:04.
+     1>Project "D:\CODE\x360\Launcher\Launcher\Launcher.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Launcher.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\Launcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\XBOX\XDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Os /D NDEBUG /D _XBOX /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"StdAfx.h" /Fp"D:\CODE\x360\Launcher\Launcher\Release\Launcher.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP stdafx.cpp /FI"E:\XBOX\XDK\\include\xbox\xbox_intellisense_platform.h"
+         stdafx.cpp
+         E:\XBOX\XDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Os /D NDEBUG /D _XBOX /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"D:\CODE\x360\Launcher\Launcher\Release\Launcher.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP Launcher.cpp X360Tools.cpp /FI"E:\XBOX\XDK\\include\xbox\xbox_intellisense_platform.h"
+         Launcher.cpp
+         X360Tools.cpp
+         Generating Code...
+       Link:
+         E:\XBOX\XDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CODE\x360\Launcher\Launcher\Release\Launcher.exe" /INCREMENTAL:NO /NOLOGO xapilib.lib d3d9.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3.lib x3daudio.lib xmcore.lib vcomp.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\CODE\x360\Launcher\Launcher\Release\Launcher.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /TLBID:1 /RELEASE /IMPLIB:"D:\CODE\x360\Launcher\Launcher\Release\Launcher.lib" Release\Launcher.obj
+         Release\stdafx.obj
+         Release\X360Tools.obj /XEX:NO
+       ImageXex:
+         E:\XBOX\XDK\bin\win32\imagexex.exe /out:"D:\CODE\x360\Launcher\Launcher\Release\Launcher.xex" "D:\CODE\x360\Launcher\Launcher\Release\Launcher.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.0
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       FinalizeBuildStatus:
+         Deleting file "Release\Launcher.unsuccessfulbuild".
+         Touching "Release\Launcher.lastbuildstate".
+     1>Done Building Project "D:\CODE\x360\Launcher\Launcher\Launcher.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.93
